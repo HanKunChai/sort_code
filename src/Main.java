@@ -6,10 +6,11 @@ public class Main {
     private static Scanner stdin = new Scanner(System.in);
     public static void main(String[] args){
         buble_sort sort1 = new buble_sort();
+        Select_sort sort2 = new Select_sort();
         System.out.print("[");
         for (int value: data) System.out.print(value+" ");
         System.out.print("]"+"\n");
-        sort1.sort(data);
+        sort2.sort(data);
         System.out.print("[");
         for (int value: data) System.out.print(value+" ");
         System.out.print("]"+"\n");
